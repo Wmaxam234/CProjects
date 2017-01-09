@@ -1,11 +1,8 @@
+#include <iostream>
+#include <cstdlib>
 /*
- * This is a test file to see if github wants to play nice
- * :D
- *
- *
- * :D
- * D:
- * D:
- * :D
- *
+ * Test File
  */
+int main(){
+	std::cout << "Test My Program";
+}
