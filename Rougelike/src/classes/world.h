@@ -7,6 +7,8 @@
 
 #ifndef WORLD_H_
 #define WORLD_H_
+#include <iostream>
+#include <cstdlib>
 
 class world {
 public:
