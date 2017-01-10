@@ -14,6 +14,7 @@ class character {
 public:
 	character(std::string);
 	void newCharacter();
+	//void loadCharacter();
 private:
 	std::string name;
 };

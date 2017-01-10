@@ -1,16 +1,27 @@
 #include <iostream>
 #include <cstdlib>
-#include "classes/world.h"
 #include "classes/character.h"
-#include "classes/enemy.h"
 
 int main(){
 	std::string name;
 	std::cout << "Starting program.....\n";
-	world w();
 	character c(name);
-	enemy e();
 	std::cout << "Program started!\n";
 	std::cout << "Loading...\n";
+	/*
+	std::cout << "Would you like to make a new character or load a previous one? (A or B)\n";
+	char answer;
+	std::cin >> answer;
+	if(answer == 'A'){
+		c.newCharacter();
+	}
+	if(answer == 'B'){
+		std::cout << "Input character name\n";
+		std::cin >> c.loaded;
+		if(c.loaded == c.loadable[1]){
+			c.loadCharacter();
+		}
+	}
+	*/
 	c.newCharacter();
 }
