@@ -11,4 +11,7 @@ character::character() {
 	// TODO Auto-generated constructor stub
 
 }
+void character::newCharacter(){
+
+}
 
