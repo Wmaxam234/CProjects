@@ -29,7 +29,7 @@ void character::newCharacter(){
 		if(answer == '1'){
 			gender = 1;
 			std::cout << "Now loading world\n";
-
+			world w();
 		}
 		if(answer == '2'){
 			gender = 2;

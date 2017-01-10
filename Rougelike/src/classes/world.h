@@ -13,6 +13,8 @@
 class world {
 public:
 	world();
+private:
+	int w, h;
 };
 
 #endif /* WORLD_H_ */

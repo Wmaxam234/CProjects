@@ -7,8 +7,9 @@
 
 #include "world.h"
 
-world::world() {
-	// TODO Auto-generated constructor stub
-
+world::world(int wid, int heig)
+: w(wid), h(heig){
+	w = 15;
+	h = 40;
 }
 
