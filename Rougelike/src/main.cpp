@@ -5,7 +5,12 @@
 #include "classes/enemy.h"
 
 int main(){
-	std::cout << "Starting program...../n";
-	std::cout << "Program started!/n";
-	std::cout << "Loading.../n";
+	std::string name;
+	std::cout << "Starting program.....\n";
+	world w();
+	character c(name);
+	enemy e();
+	std::cout << "Program started!\n";
+	std::cout << "Loading...\n";
+	c.newCharacter();
 }

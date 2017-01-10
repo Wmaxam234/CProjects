@@ -12,9 +12,10 @@
 
 class character {
 public:
-	character();
+	character(std::string);
 	void newCharacter();
 private:
+	std::string name;
 };
 
 #endif /* CHARACTER_H_ */
