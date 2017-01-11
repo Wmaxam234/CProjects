@@ -1,11 +1,13 @@
 #include <iostream>
 #include <cstdlib>
 #include "classes/character.h"
+#include "classes/world.h"
 
 int main(){
 	std::string name;
 	std::cout << "Starting program.....\n";
 	character c(name);
+	world w();
 	std::cout << "Program started!\n";
 	std::cout << "Loading...\n";
 	/*
@@ -24,4 +26,5 @@ int main(){
 	}
 	*/
 	c.newCharacter();
+
 }
